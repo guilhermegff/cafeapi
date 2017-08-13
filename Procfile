@@ -1,1 +1,1 @@
-web: gunicorn cafeapi.wsgi --log-file -
+web: gunicorn cafepi.wsgi --log-file -
