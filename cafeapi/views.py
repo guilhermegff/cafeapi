@@ -4,6 +4,7 @@ from django.shortcuts import render
 from serializers import ContaSerializer, ClienteSerializer, MaquinaSerializer, UserSerializer
 from rest_framework import generics
 
+
 class ContaList(generics.ListCreateAPIView):
     lookup_url_kwarg = 'cliente'
     serializer_class = ContaSerializer
